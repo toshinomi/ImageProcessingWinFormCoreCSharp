@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ImageProcessing.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ImgTypeSelectName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EdgeDetection</Value>
+    </Setting>
+    <Setting Name="ImgTypeEdgeId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ImgTypeEdgeName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EdgeDetection</Value>
+    </Setting>
+    <Setting Name="ImgTypeGrayScaleId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="ImgTypeGrayScaleName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GrayScale</Value>
+    </Setting>
+    <Setting Name="ImgTypeBinarizationId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="ImgTypeBinarizationName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Binarization</Value>
+    </Setting>
+    <Setting Name="ImgTypeGrayScale2DiffId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="ImgTypeGrayScale2DiffName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GrayScale 2Diff</Value>
+    </Setting>
+    <Setting Name="ImgTypeColorReversalId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="ImgTypeColorReversalName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ColorReversal</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
