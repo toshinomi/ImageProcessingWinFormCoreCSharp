@@ -7,6 +7,3 @@
 
 開発環境：Visual Studio 2019  
 言語：C#、.NET Core 3.0  
-
-※LiveChartsがうまく移植できていません。もしかしたら、Windows Formは対応できないかも。  
-　他のライブラリに置き換える必要がありそう。
