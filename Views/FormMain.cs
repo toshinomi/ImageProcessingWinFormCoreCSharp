@@ -6,7 +6,6 @@ using System.Drawing.Imaging;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System.IO;
-//using System.Windows.Media.Imaging;
 
 namespace ImageProcessingWinFormCoreCSharp
 {
@@ -17,7 +16,7 @@ namespace ImageProcessingWinFormCoreCSharp
         private string m_strOpenFileName;
         private CancellationTokenSource m_tokenSource;
         private string m_strCurImgName;
-        private FormHistgram m_histgram;
+        private FormHistgramOxyPlot m_histgram;
 
         public FormMain()
         {
@@ -278,13 +277,13 @@ namespace ImageProcessingWinFormCoreCSharp
 
                 if (m_histgram == null)
                 {
-                    m_histgram = new FormHistgram();
+                    m_histgram = new FormHistgramOxyPlot();
                 }
                 else
                 {
                     m_histgram.Close();
                     m_histgram = null;
-                    m_histgram = new FormHistgram();
+                    m_histgram = new FormHistgramOxyPlot();
                 }
 
                 m_histgram.BitmapOrg = (Bitmap)new Bitmap(m_strOpenFileName).Clone();
@@ -468,7 +467,7 @@ namespace ImageProcessingWinFormCoreCSharp
             {
                 m_histgram.Close();
                 m_histgram = null;
-                m_histgram = new FormHistgram();
+                m_histgram = new FormHistgramOxyPlot();
             }
 
             m_histgram.BitmapOrg = (Bitmap)new Bitmap(m_strOpenFileName).Clone();
